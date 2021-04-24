@@ -1,30 +1,20 @@
 <template>
-  <div id="nav">
-    <router-link to="/vuex1">Vuex1</router-link> |
-
+  <div id="app">
+    <router-view/>
+<!--    <router-link to="/vuex1">Vuex1</router-link> |-->
+<main-tabbar></main-tabbar>
   </div>
-  <router-view/>
+
 </template>
 
+<script>
+import mainTabbar from "@/components/content/mainTabbar";
+export default {
+  components:{mainTabbar},
+  name: "App"
+}
+
+</script>
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
+@import "assets/css/base.css";
 </style>

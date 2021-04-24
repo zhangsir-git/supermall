@@ -18,7 +18,7 @@
 // eslint-disable-next-line no-unused-vars
 import { INCREASEMENT ,DECREMENT} from "@/store/mutation-type";
 export default {
-name: "Vuex1",
+name: "Vuex2",
   methods:{
   //普通的提交分割
     add(){

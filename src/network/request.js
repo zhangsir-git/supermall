@@ -8,8 +8,6 @@ export function request1(config){
 		// console.log(config);
 		return config
 	})
-
-
 	instance.interceptors.response.use(res =>{
 		console.log("respose");
 		return  res.data
