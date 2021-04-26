@@ -1,5 +1,6 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-const Home =()=>import('../views/home/tabbar/home')
+const Home =()=>import('@/views/category/tabbar/home/Home')
+
 const routes = [
   {
     path:'/home',
@@ -9,15 +10,15 @@ const routes = [
 
   {
     path: '/category',
-    component:() =>import('../views/category/tabbar/category')
+    component:() =>import('@/views/category/tabbar/category/category')
   },
   {
     path: '/shopcart',
-    component:()=>import('../views/shopcart/tabbar/shopcart')
+    component:()=>import('@/views/category/tabbar/shopcart/shopcart')
   },
   {
     path: '/profile',
-    component:()=>import('../views/profile/tabbar/profile')
+    component:()=>import('@/views/category/tabbar/profile/profile')
   }
 ]
 

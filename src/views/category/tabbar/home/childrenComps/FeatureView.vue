@@ -1,10 +1,12 @@
 <template>
-<h2>主页</h2>
+<div>
+
+</div>
 </template>
 
 <script>
 export default {
-name: "home"
+  name: "FeatureView"
 }
 </script>
 

@@ -1,5 +1,5 @@
 {
-  "name": "test_vuex",
+  "name": "supermall",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -39,7 +39,9 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-unused-vars":"off"
+    }
   },
   "browserslist": [
     "> 1%",

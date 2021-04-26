@@ -4,10 +4,10 @@
   </div>
 </template>
 <script>
-import tabBarItem from "@/components/tabbar/tabBarItem";
+
 export default {
 name: "tabBar",
-  components:{ tabBarItem}
+
 }
 </script>
 <style >
